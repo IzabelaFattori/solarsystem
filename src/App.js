@@ -5,11 +5,13 @@ import Missions from './components/Missions';
 
 class App extends React.Component {
   render() {
-    return (<>
-      <Header />
-      <SolarSystem headline="Planetas"/>
-      <Missions headline="Missões"/>
-      </>);
+    return (
+      <>
+        <Header />
+        <SolarSystem headline="Planetas" />
+        <Missions headline="Missões" />
+      </>
+    );
   }
 }
 

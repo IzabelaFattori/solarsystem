@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import missions from '../data/missions';
+import PropTypes from 'prop-types';
 
 class MissionCard extends Component {
   render() {

@@ -4,7 +4,7 @@ import Title from './Title';
 
 export default class Missions extends Component {
   render() {
-    const { missionName, missionImage } = this.props;
+    const { missionName } = this.props;
     return (
       <div data-testid="missions">
         <Title headline={ missionName } />
@@ -12,3 +12,7 @@ export default class Missions extends Component {
     );
   }
 }
+
+Missions.propTypes = {
+  missionName: PropTypes.string.isRequired,
+};
