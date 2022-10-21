@@ -7,18 +7,15 @@ class SolarSystem extends React.Component {
     const { headline } = this.props;
     return (
       <div data-testid="solar-system">
-        <h1>Qualquer coisa</h1>
-        <Title headline="Planetas" />
+        <h1>{headline}</h1>
+        <Title />
       </div>
     );
   }
 }
 
 SolarSystem.propTypes = {
-  planets: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-  }).isRequired,
+  headline: PropTypes.string.isRequired,
 };
 
 export default SolarSystem;
