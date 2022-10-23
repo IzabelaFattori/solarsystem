@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 8rem;
+    position: relative;
+    margin-top: 4rem;
+    font-size: 30px;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 180px;
+        height: 180px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 100%;
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(50%, -50%) skewX(-45deg);
+      }
+}
+

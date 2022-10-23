@@ -1,0 +1,21 @@
+.missionPai{
+  width: 1100px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgba(17, 3, 46, 0.438);
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px white;
+
+
+  .missions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem 0;
+  }
+}
+
+

@@ -1,0 +1,25 @@
+.Footer{
+  text-align: center;
+  margin: 2rem;
+  margin-top: 8rem;
+
+  p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+    span{
+      color:rgb(250, 250, 250);
+    }
+
+    a{
+      text-decoration: none;
+      color: rgb(231, 0, 212);
+
+      &:hover{
+        color: rgb(214, 186, 214);
+        border-color: black;
+      }
+    }
+  }
+}

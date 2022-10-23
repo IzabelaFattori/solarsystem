@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../style/PlanetCard.scss';
 
 class PlanetCard extends React.Component {
   render() {
@@ -9,9 +10,13 @@ class PlanetCard extends React.Component {
     console.log(typeof planetName);
 
     return (
-      <div key={ planetName } data-testid="planet-card">
-        <div data-testid="planet-name">{planetName}</div>
-        <img src={ `${planetImage}` } alt={ `Planeta ${planetName}` } />
+      <div key={ planetName } data-testid="planet-card" className="PlanetCard">
+        <div data-testid="planet-name" className="PlanetStatus">{planetName}</div>
+        <img
+          src={ `${planetImage}` }
+          alt={ `Planeta ${planetName}` }
+          className="PlanetStatus"
+        />
       </div>
     );
   }

@@ -2,6 +2,7 @@ import React from 'react';
 import Title from './Title';
 import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
+import '../style/SolarSystem.scss';
 
 class SolarSystem extends React.Component {
   render() {
@@ -13,9 +14,9 @@ class SolarSystem extends React.Component {
       />));
 
     return (
-      <div data-testid="solar-system">
-        <Title headline="Planetas" />
-        <div>{cards}</div>
+      <div data-testid="solar-system" className="SolarSystem">
+        <Title headline="Planetas" className="tituloPlaneta" />
+        <div className="Planeta">{cards}</div>
       </div>
 
     );

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+    font-size: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/80/Backgorund.gif);
+    background-size: 100%;
+    background-position: absolute;
+    background-attachment: fixed;
+
+}
